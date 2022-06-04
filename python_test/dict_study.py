@@ -37,6 +37,7 @@ print('name' in test_dict) # True
 
 
 # setdeafult() = 키가 없으면 맨 뒤에 추가
+print('setdefault')
 test_dict.setdefault('new1', 'my')
 test_dict2.setdefault(7, 1)
 

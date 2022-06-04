@@ -42,3 +42,9 @@ print(process_tst)
 print(int('123'))
 
 print("".join(map(str, [1,2,3])))
+
+print(list(str(1234)))
+
+print(int(1.7))
+import math
+math.ceil(1.7)

@@ -60,7 +60,7 @@ a = [1, 2, 3, 1, 2, 3]
 a.remove(3) # 없으면 ValueError
 print(a)
 
-# 리스트 요소 끄집어내기(pop) - 외치고 삭제
+# 리스트 요소 끄집어내기(pop) - 끝에꺼 외치고 삭제
 print('리스트 요소 끄집어내기(pop) - 외치고 삭제')
 
 a = [1,2,3]
@@ -103,10 +103,36 @@ print(res)
 
 
 
+# 리스트 초기화
+
+my_arr = [[0]] * 5
+print(my_arr)
+
+my_arr[0] = [1,2]
+print(my_arr)
 
 
+# list swap
+
+swap_lst = [1, 2, 3, 4]
+
+swap_lst[1], swap_lst[2] = swap_lst[2], swap_lst[1]
+print(swap_lst)
+
+if 100:
+    print("?")
 
 
+# count2
 
+arr = [[1, 2, 3],[1, 2, 2],[1, 2, 3]]
+print(arr.count(1)) # 0
+print(arr[0].count(1)) # 1
 
+print('gi')
+print(arr[0][0])
 
+from collections import Counter
+
+ct = Counter([1,2,3])
+ct.get((1))

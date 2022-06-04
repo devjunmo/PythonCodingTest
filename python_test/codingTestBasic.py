@@ -59,7 +59,7 @@ print('########################')
 # 2.1 input(), map()
 
 # n = int(input()) # 데이터 갯수 입력
-# print('n =', n)
+# print('n =', n)m
 #
 # my_data = list(map(int, input().split())) # '공백' 기준이 디폴트
 # print('my_data = ', my_data)
