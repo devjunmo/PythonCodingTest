@@ -102,11 +102,11 @@ if 1 < 16 < 20:
 
 print((lambda a, b: a+b)(3, 7)) # (lambda 입력:리턴)(넣을 인자)
 
-array = [('B', 60), ('A', 50), ('C', 70)]
+array = [('B', 60), ('R', 50), ('C', 70)]
 print(sorted(array, key=lambda x: x[1]))  # 정렬 기준을 람다로 표현
 
 print([1,2]+[3,4]) # [1, 2, 3, 4]
-print(list(map(lambda a, b:a+b, [1,2], [3, 4]))) # [4, 6]
+print(list(map(lambda a, b:a+b, [1, 2], [3, 4]))) # [4, 6]
 
 
 

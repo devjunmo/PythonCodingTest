@@ -97,7 +97,7 @@ for i in zip([1,2,3], [3,2,1]):
 
 # 원소간 합
 
-res = [sum(tup)for tup in zip([1,2,3], [4,5,6])]
+res = [sum(tup) for tup in zip([1,2,3], [4,5,6])]
 print(res)
 
 
