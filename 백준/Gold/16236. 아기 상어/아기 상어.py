@@ -6,6 +6,7 @@
 1 2 3 4
 """
 import sys
+# import gc
 
 input = sys.stdin.readline
 N = int(input())
@@ -79,6 +80,7 @@ while True:
     min_dist_fp = ()
     for fp in food_pos_list:
         fp_dist = bfs(shark_pos, fp)
+        # gc.collect()
         # 도달할 수 있으 면서 최소인 거리일 때 (-1이면 도달할 수 없는 거리임)
         if fp_dist != -1 and min_dist_food > fp_dist:
             min_dist_food = fp_dist
